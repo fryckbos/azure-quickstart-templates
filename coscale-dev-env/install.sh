@@ -5,6 +5,8 @@ EMAIL=$2
 PASSWORD=$3
 DNS=$4
 
+echo DNS = $DNS
+
 ## Initialize the data disk
 
 parted -s /dev/sdc mklabel msdos
